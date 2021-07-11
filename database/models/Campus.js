@@ -5,6 +5,7 @@ const Campus = db.define("campus", {
   // Primary Key is campusID
   campusID: {
     type: Sequelize.INTEGER,
+    primaryKey: true,
     autoIncrement: true,
     allowNull: false
   },

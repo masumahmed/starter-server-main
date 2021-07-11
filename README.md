@@ -1,13 +1,30 @@
-# starter-server
+# Server
+#### Masum Ahmed (masumahmed)
 
-Dependcies
-Express
-Sequalize
+server for CRUD Campus App
 
-Starter code for the backend of our final CRUD app
+## Dependencies
+PostgreSQL
+- Linux
+```
+sudo apt-get install update
+sudo apt-get install postgressql postgressql-contrib
+```
 
-To start:
+- Mac: ???
+- windows: ???
+
+Postman
+- Linux
+```
+sudo apt update
+sudo apt install snapd
+sudo snap install postman
+```
+
+Express `npm install --save express`
+Sequalize `npm install --save sequelize` & `npm install --save pg pg-hstore`
+
+## To Run:
 
 `npm run dev`
-
-Download Postgres and Postman. 

@@ -2,8 +2,8 @@ const Sequelize = require('sequelize');
 const db = require('../db');
 
 const Student = db.define("student", {
-  campusID : {
-    type: Sequelize.INTEGER;
+  assignCampus : {
+    type: Sequelize.INTEGER
   },
   firstname: {
     type: Sequelize.STRING,
@@ -22,7 +22,7 @@ const Student = db.define("student", {
       defaultValue: "assets/user.png",
   },
   gpa : {
-    type: DataTypes.DECIMAL(2, 1)
+    type: Sequelize.DECIMAL(2, 1)
   }
 });
 
