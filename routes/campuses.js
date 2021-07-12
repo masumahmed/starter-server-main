@@ -5,7 +5,7 @@ const { Student, Campus } = require('../database/models');
 const ash = require('express-async-handler');
 
 /** GET ALL CAMPUSES */
-router.get('/api/campuses', ash(async(req, res) => {
+router.get('/', ash(async(req, res) => {
   let campuses = await Campus.findAll({include: [Student]});
   res.status(200).json(campuses);
 }));
