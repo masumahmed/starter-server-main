@@ -13,7 +13,7 @@ sudo apt-get install postgresql postgresql-contrib
 Node: `npm install`
 
 ## Note
-Remember to put in your postgresql login information in the `configDB.js` file
+Remember to put in your postgresql login password in the `configDB.js` file
 
 ## To Run:
 `npm run dev`
