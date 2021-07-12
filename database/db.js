@@ -1,4 +1,4 @@
-// Instantiate database 
+// Instantiate database
 
 // Module dependencies;
 const Sequelize = require('sequelize');

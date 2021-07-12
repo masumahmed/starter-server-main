@@ -8,7 +8,7 @@ PostgreSQL
 - Linux
 ```
 sudo apt-get install update
-sudo apt-get install postgressql postgressql-contrib
+sudo apt-get install postgresql postgresql-contrib
 ```
 
 - Mac: ???
@@ -24,6 +24,10 @@ sudo snap install postman
 
 Express `npm install --save express`
 Sequalize `npm install --save sequelize` & `npm install --save pg pg-hstore`
+
+## Note
+
+Remember to put in your postgresql login information in the `configDB.js` file
 
 ## To Run:
 

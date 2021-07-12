@@ -3,12 +3,12 @@ const db = require('../db');
 
 const Campus = db.define("campus", {
   // Primary Key is campusID
-  campusID: {
-    type: Sequelize.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-    allowNull: false
-  },
+  // campusID: {
+  //   type: Sequelize.INTEGER,
+  //   primaryKey: true,
+  //   autoIncrement: true,
+  //   allowNull: false
+  // },
   name: {
     type: Sequelize.STRING,
     allowNull: false

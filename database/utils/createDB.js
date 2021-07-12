@@ -1,14 +1,13 @@
 const pgtools = require('pgtools');
 const {dbName, dbUser, dbPwd} = require('./configDB');
 
-
 const config = {
     user: dbUser,
     host: 'localhost',
     port: 5432,
     password: dbPwd
   };
-    
+
   //attempt to create DB
   //if it already exists, this does nothing and just connects to
   //the existing db of that name
